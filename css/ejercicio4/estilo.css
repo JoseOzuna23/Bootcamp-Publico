@@ -1,0 +1,45 @@
+.divPrincipal{
+    background: rgb(197, 195, 195);   
+    margin: 0px auto; 
+    width: 950px;  
+    padding: 20px;  
+    
+}
+.nav{
+    background-color:  rgb(82, 184, 57);
+    height: 150px;    
+        
+}
+
+.side{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin-top: 20px;   
+}
+.main{
+    background-color:  red;
+    height: 400px;    
+    width: 700px;  
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+    .divTresUno{
+        background-color: yellow;
+        height: 200px;
+        width: 210px;  
+        margin-right: 20px;  
+    }
+    
+    .divTresCuatro{
+        background-color: rgb(161, 32, 179);
+        height: 120px;
+        width: 660px;
+        margin-top: 20px;
+}
+.row{
+    display: flex;
+}

@@ -1,0 +1,23 @@
+.fila{
+    display: flex;
+}
+.columna{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.columna-2{
+
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: aqua;
+}
+.columna-3{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: aqua;
+
+}

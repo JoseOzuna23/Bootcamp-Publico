@@ -1,0 +1,46 @@
+.divPrincipal{
+    background: rgb(197, 195, 195);   
+    margin: 0px auto; 
+    width: 950px;
+    padding: 20px;
+    
+}
+.divUno{
+    background-color:  rgb(82, 184, 57);
+    height: 150px; 
+    margin-bottom: 20px;
+        
+}
+.divDos{
+    background-color:  rgb(85, 107, 233);
+    width: 200px;
+    height: 300px; 
+    display: block; 
+    display: inline-block;   
+    margin-right: 20px;     
+    
+}
+.divTres{
+    background-color:  red;
+    height: 400px;    
+    width: 700px;    
+    display: inline-block;  
+    vertical-align: top;
+    padding: 12px;
+
+}
+    .divTresUno{
+        background-color: yellow;
+        height: 200px;
+        width: 210px;    
+        display: inline-block; 
+        margin-right: 10px;     
+        margin-bottom: 10px;         
+        
+    }
+    
+    .divTresCuatro{
+        background-color: rgb(161, 32, 179);
+        height: 120px;
+        width: 660px;
+}

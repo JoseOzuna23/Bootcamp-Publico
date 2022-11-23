@@ -1,0 +1,35 @@
+.principal{
+
+    background-color:antiquewhite;
+    margin: 0px auto; 
+    width: 950px;
+    padding: 20px;
+}
+#divUno{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+#divDos{
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+#divTres{
+
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+img{
+    height: 200px;   
+}

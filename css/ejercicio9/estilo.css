@@ -1,0 +1,142 @@
+.nav{
+    background-color: rgb(51, 48, 48); 
+    display: flex;  
+    padding-left: 20px;
+    height: 70px;
+    justify-content: space-between;
+    margin: 0px auto; 
+    width: 950px;
+}
+.titulo11{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(37, 31, 31);
+    font-family: 'Courier New', Courier, monospace;    
+    margin-left: 20px;
+    padding-top: 10px;
+    
+
+
+}
+.titulo1{
+    margin-top: 35px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;      
+}
+
+a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn{
+    background-color: aqua;
+    box-shadow: 5px 5px #888888;
+    height: 35px;
+}
+li{
+    list-style: none;
+}
+
+/* sesion de perfiles */
+.subContenedor1{
+    position: absolute;
+    width: 210px;
+    height: 150px;
+    margin-left: 600px;
+    margin-top: 90px;
+    border: 2px solid rgb(144, 146, 151);
+}
+.subContenedor2{
+    position: absolute;
+    width: 210px;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: 300px;
+    border: 2px solid rgb(144, 146, 151);
+}
+
+.cabeceraSubconendero1{
+
+    background-color: rgb(51, 121, 37);
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.spanConection{
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 10px;
+
+}
+.spanConection2{
+
+    height: 20px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 12px;
+    padding-top: 5px;
+    
+
+}
+.parrafoSubContenedor{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+.parrafoSubContenedor2{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 70px;
+    padding-top: 5px;
+
+}
+
+.contenedorPrincipal{
+    margin-left: 20%;
+    margin-right: 10%; 
+    width: 500px;
+    border: 1px solid;
+    margin-top: 20px;
+}
+.cuadro{
+    background-color: aquamarine;
+    height: 80px;
+}
+.imagenSpan{
+    background-color:white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.titulo{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.titulo2{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+p{
+    margin-left: 10px;
+}

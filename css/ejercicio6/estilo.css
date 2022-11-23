@@ -1,0 +1,34 @@
+.nav{
+    background-color: rgb(51, 48, 48); 
+    display: flex;  
+    padding-left: 20px;
+    height: 70px;
+    justify-content: space-between;
+    margin: 0px auto; 
+    width: 950px;
+}
+.titulo{
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;      
+}
+
+a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn{
+    background-color: aqua;
+    box-shadow: 5px 5px #888888;
+    height: 35px;
+}
+li{
+    list-style: none;
+}

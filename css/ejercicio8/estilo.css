@@ -1,0 +1,30 @@
+.principal{
+    margin: 0px auto; 
+    width: 950px;
+    border: 1px solid;
+}
+.cuadro{
+    background-color: aquamarine;
+    height: 80px;
+}
+.imagenSpan{
+    background-color:white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.titulo{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.titulo2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+p{
+    margin-left: 10px;
+}

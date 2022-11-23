@@ -1,0 +1,58 @@
+*{
+    font-family: monospace;
+}
+
+.cajaUno{
+    background-color: black;
+    margin: 10px;
+
+}
+.tituloUno{
+    color: white;
+    font-weight: bold;    
+    font-size: 100px;
+    margin-left: 20px;
+    margin: 0px;
+    padding: 0px;
+
+}
+span{
+    color: aqua;
+}
+.tituloDos{
+
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 20px;
+    color: beige;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.cajaDos{
+    
+    margin-top: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+    
+}
+
+.cajaTres{
+
+    background-color: aqua;
+    margin: 10px;
+    height: 50px;
+}
+.tituloTres{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    font-size: 30px;
+    text-decoration: underline;
+
+
+
+    
+}
