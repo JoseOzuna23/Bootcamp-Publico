@@ -1,0 +1,98 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sesion de encabezado de la pagina*/
+.cabecera{
+
+    height: 60px;    
+    background-color: black;
+    color: white;     
+    display: flex;  
+    align-items: center;
+    justify-content: space-around; 
+}
+.lista{
+    margin: 10px;
+    display: flex;     
+    align-items: center;     
+    
+}
+li, .perfil{
+    margin-right: 2rem;
+    list-style:none;
+}
+.btn{
+    padding:0.5rem 1rem;
+    background-color: aqua;
+    color: white;
+}
+
+/* Cuerpo de la pagina */
+
+main{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;    
+}
+.cajaUnoHeader{
+    background-color: #17a2b8;
+    height: 80px;
+}
+header{
+    background-color: #333333;
+    height: 50px;
+}
+.columnaUno{   
+    width: 40%;
+    margin-right: 2%;    
+}
+.columnaDos{
+    width:20% ;    
+}
+.cajaUno{
+    margin-bottom: 4%;
+    border: solid 1px;   
+    line-height: 2; 
+}
+.cajaDos, .divUno, .divDos{
+    border: solid 1px;
+}
+
+.divUno{
+    margin-bottom: 8%;
+}
+.spanPerfil{
+    background-color: aliceblue;
+    height:70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    margin:3% 3%;
+}
+.nombre{
+    margin-top: 25px;
+    margin-left: 3%;
+}
+p, a{
+    margin-left: 3%;
+}
+.parrafos{
+    color: white;
+    padding-top: 2.5%;
+    display: inline-block;
+}
+.span2{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;    
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    display: inline-block;
+}
