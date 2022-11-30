@@ -1,0 +1,34 @@
+.principal{
+    margin: 0px auto; 
+    width: 300px;
+}
+.contenedor{
+    margin-top: 50px;
+    border: solid 2px;
+    padding: 10px;
+    
+}
+.divisoria{
+    display: flex;
+    align-items: center;      
+    font-size: 18px;
+    justify-content:space-between
+}
+.contenedorLike{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.like{
+    height: 30px;
+    width: 50px;
+    box-shadow: 5px 5px blue;
+    background-color: aqua;
+}
+p{
+    margin: 0px;
+    
+}
+.parafoLike{
+    padding-right: 15px;
+}

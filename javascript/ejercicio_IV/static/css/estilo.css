@@ -1,0 +1,59 @@
+
+.principal{
+    margin: 0px auto; 
+    width: 600px;
+}
+.cabecera{
+    background-color: black;
+    color: white;   
+    padding: 3px 50px 3px;  
+}
+.tituliPrincipal{
+    text-align: center;
+}
+.contenedorColumnas{
+    display: flex;
+    justify-content: space-around;
+}
+.columnaI{
+    border: solid 2px;
+    width: 20%;
+    height: 200px;
+    padding: 20px 10px 3px; 
+    text-align: center;
+    line-height: 35px;
+}
+.columnaII{
+    width: 70%;
+
+}
+.cajaI{
+    margin-bottom: 30px;
+    border: solid 2px;
+    padding: 10px;
+    
+}
+.divisoria{
+    display: flex;
+    align-items: center;      
+    font-size: 18px;
+    justify-content:space-between
+}
+.contenedorLike{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.like{
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px blue;
+    background-color: aqua;
+}
+p{
+    margin: 0px;
+    
+}
+.parafoLike{
+    padding-right: 15px;
+}
