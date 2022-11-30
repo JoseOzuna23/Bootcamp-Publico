@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascripts.js"></script>
+    <title> Ejercicio de Video</title>
+</head>
+<body>
+
+    <main class="principal">
+
+        <!-- Sescion cabecera del ejercicio -->     
+        <header class="cabecera">
+            <h1> VideoLab</h1>
+            <input type="text" id="mySearch"  placeholder="Search.." title="Type in a category">
+            <button class="botonI"> Login </button>
+        </header>
+        <!-- Sescion Cuerpo del ejercicio -->
+        <div class="contenedorCuerpo">
+            <div class="columnaI">  
+                <video id="myVideo" width="600" height="340"muted loop 
+                    onmouseover="playVideo(this)" onmouseout="pauseVideo(this)">
+                <source src="videoI.mp4" type="video/mp4">                
+                </video> 
+                <div class="contenedorTitulo"> 
+                    <div> 
+                        <h1 class="titulo"> Example Video Title</h1>
+                        <h3 class="tituloII"> 1.3k views | November 29, 2022 </h3>
+                        <div class="contenedorUser">
+                            <span class="spanUser"> <i class="fa fa-user-circle-o" style="font-size:24px"></i></span>
+                            <p class="parrafo"> Example User Name</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="botonII"> Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="columnaII">
+                <p> Up net</p>
+                <hr>
+                <div class="contenedorPlay">
+                    <i class="fa fa-caret-square-o-right" style="font-size:80px;color:red; margin: 10px;"></i>
+                    <p> Not a Rick Roll</p>                   
+                </div>
+                <div class="contenedorPlay">                   
+                    <i class="fa fa-caret-square-o-right" style="font-size:80px;color:red; margin: 10px;"></i>
+                    <p> 10 Facts About</p>
+                </div>
+                <div class="contenedorPlay">                   
+                    <i class="fa fa-caret-square-o-right" style="font-size:80px;color:red; margin: 10px;"></i>
+                    <p> Cosplay Tips</p>
+                </div>
+                <div class="contenedorPlay">                   
+                    <i class="fa fa-caret-square-o-right" style="font-size:80px;color:red; margin: 10px;"></i>
+                    <p> Boy Batties</p>
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </main>
+    
+</body>
+</html>
